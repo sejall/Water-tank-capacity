@@ -1,0 +1,8 @@
+#three variables that store the inputs as a decimal (float)
+height = float(input("Enter the tank height (cm): "))
+width = float(input("Enter the tank width (cm): "))
+depth = float(input("Enter the tank depth (cm): "))
+#calculation to work out the capacity
+capacity = (height * width * depth) / 1000
+#outputs the capacity of the water tank
+print("The tank holds" + round(capacity,2) + "litres of water")
